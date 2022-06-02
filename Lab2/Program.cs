@@ -1,4 +1,5 @@
-﻿class ProgramLab2
+﻿namespace CompulationalAlgorythms;
+class Program
 {
     static void Main(string[] args)
     {
