@@ -20,7 +20,7 @@ class Program
         double t = Convert.ToDouble(Console.ReadLine());
 
         double y = r * Sin(X) + (Cos(a) / (t * E(t)));
-        Console.WriteLine(y);
+        Console.WriteLine($"y = {y}");
 
     }
 
@@ -96,7 +96,7 @@ class Program
 
             cos += u;
         }
-        Console.WriteLine("ЗНАЧЕНИЕ sin = " + Math.Round(cos, 4));
+        Console.WriteLine("ЗНАЧЕНИЕ cos = " + Math.Round(cos, 4));
         return Math.Round(cos, 4);
     }
 
